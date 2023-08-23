@@ -1,7 +1,8 @@
-# TestITS-S
-Proof of Concept  to understand the ITS Security, namely the ETSI TS 102 941.
+My playground for the `c2c-common` library.
 
-It tries to encapsulate the requirements of the TS 102 941 and from the library from Philip Vendil. 
+Original goal: verify IEEE1609.2 payloads from Cooperative Awareness Messages (CAM), sent by vehicles equipped with V2X transmitters.
 
+Currently only performs a local signature check without verifying the certificate chain.
 
-![Diagram](./dia.png "ETSI TS 102 941 diagram")
+`c2c-common` by pvendil: https://github.com/pvendil/c2c-common
+`Test-ITS` by mascanc: https://github.com/mascanc/TestITS-S

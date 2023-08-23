@@ -2,7 +2,8 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/c2c-common"/>
 	<classpathentry kind="lib" path="lib/bcprov-debug-jdk15on-165.jar"/>
+	<classpathentry kind="lib" path="lib/c2c-common.jar"/>
+	<classpathentry kind="lib" path="lib/time4j-base-5.9.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
